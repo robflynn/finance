@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "declaration":false,
+    "emitDecoratorMetadata":true,
+    "experimentalDecorators":true,
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+    "module":"es2020",
+    "moduleResolution":"node",
+    "sourceMap":true,
+    "target":"es6",
+    "jsx":"react",
+    "allowSyntheticDefaultImports":true,
+    "noImplicitAny":false,
+    "noImplicitThis":true,
+    "noImplicitReturns":true,
+    "strictNullChecks":true,
+    "baseUrl": "./app/frontend",
+    "paths": {
+      "@owl/*": ["owl/*"]
+    }
+  },
+  "exclude": [
+    "**/*.spec.ts",
+    "node_modules",
+    "public"
+  ],
+  "compileOnSave":false
+}
